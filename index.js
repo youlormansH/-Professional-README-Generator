@@ -1,8 +1,7 @@
 // TODO: Include packages needed for this application
-const inquire = require("inquirer");
+const inquirer = require("inquirer");
 const fs = require("fs");
 const generateMarkdown = require ("./utils/generateMarkdown");
-const { default: inquirer } = require("inquirer");
 // TODO: Create an array of questions for user input
 const questions = [
     {
@@ -33,7 +32,7 @@ const questions = [
         type: "list",
         name: "license",
         message: "what kind of license this challenge have?",
-        choices: ['HTML', 'CSS', 'SASS', 'JavaScript', 'Node.js', 'Express.js'],
+        choices: ["MIT", "Apache 2.0", "GPL 3.0", "BSD 3", "None"],
     },
 
     {
@@ -69,22 +68,22 @@ const questions = [
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
-    return fs.watchFile(fileName, data, (error) =>{
-     error
-     ? console.log(console.error)
-     : console.log('success')
-    })
+     fs.writeFile(fileName, data, (err) =>{
+     if(err){
+     console.log(err);
+     }else {
+        console.log("success");
+     }
+    });
 }
 
 // TODO: Create a function to initialize app
 function init() {
     inquirer.prompt(questions).then((data) => {
-        console.log(JSON.stringify(data, null, " "));
-        data.getLicense = getLicense(data.license);
-        writeToFile("./read", data);
+        console.log(JSON.stringify(data))
+     const markDown = generateMarkdown(data);
+     writeToFile("README.md", markDown);
     });
-}
-
 }
 
 // Function call to initialize app
