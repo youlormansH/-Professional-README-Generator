@@ -46,13 +46,6 @@ const questions = [
         name: "tests",
         message: "what should to test?",
     },
-
-    {
-        type: "input",
-        name: "list",
-        message: "what user want to know about the repo?",
-    },
-
     {
         type: "input",
         name: "username",

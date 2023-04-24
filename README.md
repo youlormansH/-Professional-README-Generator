@@ -1,37 +1,40 @@
 
-  # ReadME-Generator
+  # ReadMe-Generator
   ![GitHub](https://img.shields.io/github/license/youlormansH/ReadMe)
 
   ## Description
-  this project would help me understand how to build a read me from scratch.
+  this project will help me understand how to build a to build a read me. I build this challenge for one of the assignment in the bootcamp class.
 
   ## table of contents
-  [Installation](#Installation)
-  [usage](#usage)
-  [License](#licence)
-  [Contributing](#Contributing)
-  [Tests](#Tests)
-  [Questions](#questions)
+  *[Installation](#Installation)
 
-  ## Description
-  this project would help me understand how to build a read me from scratch.
+  *[usage](#usage)
+
+  *[License](#licence)
+
+  *[Contributing](#Contributing)
+
+  *[Tests](#Tests)
+
+  *[Questions](#questions)
+
 
   ## installation
-  for this project I will run the npm i
+  npm i
 
   ## usage
-  one of the best repo!!
+  the best!!
 
   ## contributing
-  if you need help on making a readme i can help you out.
+  hard work pay off.
 
-  ## test
+  ## Tests
   undefined
 
 
   ## questions
   If you have any questions or need further assistance,
-   please contact me at youlormans@gmail.com. 
+   please contact me at youlormans@gmail.com 
    You can also check out my GitHub profile
     at https://github.com/youlormansH.
 

@@ -40,8 +40,8 @@ function generateMarkdown(data) {
   ## contributing
   ${data.contributing}
 
-  ## test
-  ${data.test}
+  ## Tests
+  ${data.Tests}
 
 
   ## questions
