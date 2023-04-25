@@ -1,9 +1,9 @@
 
-  # ReadMe-Generator
-  ![GitHub](https://img.shields.io/github/license/youlormansH/ReadMe)
+  # my project
+  ![GitHub](https://img.shields.io/badge/license-MIT-blue)
 
   ## Description
-  this project will help me understand how to build a to build a read me. I build this challenge for one of the assignment in the bootcamp class.
+  example project
 
   ## table of contents
   *[Installation](#Installation)
@@ -20,13 +20,13 @@
 
 
   ## installation
-  npm i
+  node
 
   ## usage
-  the best!!
+  install
 
   ## contributing
-  hard work pay off.
+  git clone
 
   ## Tests
   undefined
@@ -34,7 +34,7 @@
 
   ## questions
   If you have any questions or need further assistance,
-   please contact me at youlormans@gmail.com 
+   please contact me at youlormans@gmail.com. 
    You can also check out my GitHub profile
     at https://github.com/youlormansH.
 
